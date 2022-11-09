@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="control.css">
+
+    <style>
+  .closed{
+		display: none;
+}
+.open{
+		display: block;
+}
+
+button{
+  border-width: 8px;
+			width:150px;
+  			background-color: #00A8B8;
+  			margin-left:15px;
+  			font-size:120%;
+  		}
+
+#demo1{
+  		color:white;
+			background-color: #7F7F7F;
+      padding:10px;
+      font-size:120%
+}
+
+</style>
+<script>function closeMe(){
+  x=document.getElementById("demo1");
+x.style.display="none";
+}
+function openMe(){
+  x=document.getElementById("demo1");
+  x.style.display="block";
+}
+</script>
+
+  </head>
+  <body>
+<header>
+  <section class="top">
+  <img src="imgs/jinghong1.jpg" >
+<h1>LAW JING HONG</h1><br>
+<h1>Diploma in Information Technology</h1>
+<a href="#aboutme">About Me<a>
+<a href="#pesonal">Personal details<a>
+<a href="#contact">Contact<a>
+<a href="#language">Language Skills<a>
+<a href="#education">Education Background<a>
+<a href="#additionals">Additional Details<a>
+<a href="#result">Semester Result<a>
+</section>
+</header>
+<section class="middle">
+  <section class="aboutm">
+<h2>About Me</h2>
+<p><a name="aboutme">Hi, I am Jing Hong. A Taylors College student studying Diploma in Information Technology. Before this, I have
+  learned some programming language. I'm hoping that this internship will help me develop new skills and gain valuable
+  experience. </a></p>
+</section>
+    <section class="personal1">
+<h2>Personal Details</h2>
+<p><a name="pesonal">
+NAME : Law Jing Hong<br>
+Student ID : 0352395<br>
+Gender : Male<br>
+Age : 20<br>
+Nationality : Malaysia<br>
+Programme : Diploma in IT
+</a></p>
+</section>
+
+<section class="contact1">
+<h2>Contact</h2>
+<p ><a name="contact">
+<img src="imgs/phone.png" >  0189693599<br>
+<img src="imgs/gmail.png" > jinghonglaw@gmail.com<br>
+<img src="imgs/location.webp" >  NO27,Jalan PP7,Taman Pinggiran Putra,Seri Kembangan,Selangor.
+</a></p>
+</section>
+
+<section class="language1"><center>
+<h2>Language Skills</h2>
+<p><a name="language" ><p>-Mandarin</p><p>-English</p><p>-Bahasa Melaysia</p></a></p>
+</center></section>
+
+<section class="educate">
+<h2>Education Background</h2>
+<p><a name="education">
+  <ul class="school">
+<li>SJK(C) Serdang Baru 2 (2009-2014)</li>
+<li>Sekolah Menengah Kebangsaan Seri Kembangan (2015-2020)</li>
+<li>Taylors College (2021-2023)</li>
+</ul></a></p>
+</section>
+  <section class="addition">
+<h2>Additional Details</h2>
+<p><a name="additionals">
+<center>
+-C LANGUAGE<br>                      -CSS<br>
+-JAVA<br>                            - MYSQL<br>
+-HTML<br>                            - PHOTOSHOP<br>
+</center>
+</a></p>
+</section>
+  <section class="result">
+<h2>Semester Result</h2>
+<p><a name="result">
+  <table>
+	      <tr style="background:red"> <td>Semester</td><td>GPA</td></tr>
+        <tr><td width="50%">Semester 1</td><td width="50%">3.73</td></tr>
+        <tr><td width="50%">Semester 2</td><td width="50%">3.33</td></tr>
+        <tr><td width="50%">Semester 3</td><td width="50%">3.82</td></tr>
+      </table>
+      <p class="annouce"> Click open to check the CGPA</p>
+      <center>
+      <button type="button" onclick="openMe()">Open!</button>
+    	<button type="button" onclick="closeMe()">Close!</button>
+
+    	<p id="demo1">CGPA=3.68</p>
+      </center>
+     </a></p>
+</section>
+
+</section>
+  </body>
+</html>

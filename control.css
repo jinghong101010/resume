@@ -1,0 +1,113 @@
+body{background-color:#86B049;}
+.top{text-align: center;
+  line-height: 1vh;
+}
+.top a{
+color: #ffffff;
+  display:inline-block;
+margin:15px ;
+list-style: none;
+text-decoration: none;}
+
+header{background-color: #9DD9F3;
+height: 55vh;
+width: 100vw;
+}
+.top img{border:inset;
+  border-color: blue;
+  border-width: 6px;
+border-radius: 50%;
+height:30vh;
+width:15vw;
+}
+
+h2{font-size: 6vh;
+  text-align: center;
+  text-decoration: underline;
+}
+.middle a{font-size: 5vh;}
+
+.language p{display: inline-block;
+margin: 50px;
+}
+
+.school  li{line-height: 80px;
+margin: 20px;}
+
+table{
+  background-color: yellow;
+  width:100%;
+  border-collapse: collapse;
+  margin:0px;
+  padding: 10px;
+}
+
+tr,td{
+  border-style:solid;
+  border-color:#FF9001;
+  color:black;
+  font-style:italic;
+  font-size: 30px;
+  font-family:cursive;
+}
+
+
+.contact1 {
+  border: solid;
+  border-color: black;
+  margin-top: 10px;
+  border-radius: 6px;
+  border-width: 10px;
+  background-color: grey;
+
+}
+
+.aboutm{border: solid;
+border-color: black;
+margin-top: 10px;
+border-radius: 6px;
+border-width: 10px;
+background-color: blue;
+background-color: grey;}
+
+.personal1{border: solid;
+border-color: black;
+margin-top: 10px;
+border-radius: 6px;
+border-width: 10px;
+background-color: grey;}
+
+.language1{border: solid;
+border-color: black;
+margin-top: 10px;
+border-radius: 6px;
+border-width: 10px;
+background-color: grey;}
+
+.educate{border: solid;
+border-color: black;
+margin-top: 10px;
+border-radius: 6px;
+border-width: 10px;
+background-color: grey;}
+
+.addition{border: solid;
+border-color: black;
+margin-top: 10px;
+border-radius: 6px;
+border-width: 10px;
+background-color: grey;}
+
+.result{border: solid;
+border-color: black;
+margin-top: 10px;
+border-radius: 6px;
+border-width: 10px;
+background-color: grey;}
+
+img{border-radius: 150px;
+height: 25px;
+width: 25px;}
+
+.annouce{color:red;
+text-align: center;}
